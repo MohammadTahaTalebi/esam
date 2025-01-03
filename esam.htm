@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="style/header.css">   
+<link rel="stylesheet" href="style/content.css">
+<link rel="stylesheet" href="style/slider.css">
+<link rel="stylesheet" href="style/miniSlider.css">
+<link rel="stylesheet" href="style/darkmode.css">
+
+
+</head>
+<body>
+
+<input type="checkbox" name="r" id="dm"> </input>
+<label for="dm"> dark mode </label>    
+
+
+
+<div id="header">  
+        <div class="profile"><p> ورود/ثبت نام</p> </div>
+        <div class="search"> <input type="text" placeholder="جست و جو در بیش از 700هزار کالا"> </div>
+        <div class="khadamat"> <p class="p1" id="p1"> فروش کالا</p> <p class="p2" id="p2"> مزایدات</p> <p class="p3" id="p3"> دسته ها</p> </div>
+        <div class="headerlogo"> </div>
+</div>
+<div id="content"> 
+        <div class="top"> 
+            <div class="img"> 
+                <div class="img11"> <img src="https://static.esam.ir/Images/Sliders/React/2/02-06-22-little-slider-lightinf.jpg" alt="لوازم روشنایی"> </div>
+                <div class="img22"> <img src="https://static.esam.ir/Images/Sliders/React/2/02-06-22-little-slider-action-figure-min.jpg" alt="اکشن فیگور"> </div>
+            </div> 
+            <div class="slider"> 
+                <div id="slider">
+                    <div id="gal">	
+            
+                        <div class="items">  
+                            <img src="https://static.esam.ir/Images/Sliders/React/1/02-06-22-slider-desktop-esperesso-maker-min.jpg" alt="اسپرسوساز">			
+                        </div>
+                        <div class="items">  
+                            <img src="https://static.esam.ir/Images/Sliders/React/1/02-06-22-slider-desktop-power-tools-min.jpg" alt="ابزار برقی">			
+                        </div>		
+                        <div class="items">  
+                            <img src="https://static.esam.ir/Images/Sliders/React/1/02-06-22-slider-desktop-speaker-min.jpg" alt="اسپیکر و بلندگو">			
+                        </div>			                  
+                    </div>
+                    <div id="right">	</div>	
+                    <div id="left">  	</div>	
+                    
+                    <ul id="but">
+                        <li class="sel" onclick="changeAll(0)">   </li>
+                        <li onclick="changeAll(1)">   </li>	
+                        <li onclick="changeAll(2)">   </li>	
+                    </ul>
+                    
+                </div>    
+            </div>
+        </div>
+        <div class="bakhsh">             
+            <div> <img src="images/bakhsh/01.png" alt="دوربین شکاری">  <p> دوربین شکاری</p> </div>
+            <div> <img src="images/bakhsh/02.png" alt="بازی پلی استیشن PS4">  <p> ps4 پلی استیشن</p> </div>
+            <div> <img src="images/bakhsh/03.png" alt="دوربین عکاسی">  <p> دوربین عکاسی</p> </div>
+            <div> <img src="images/bakhsh/04.png" alt="پاور کامپیوتر">  <p> پاور کامپیوتر</p> </div>
+            <div> <img src="images/bakhsh/05.png" alt="مادربرد کامپیوتر">  <p>مادربرد و کامپیوتر</p> </div>
+            <div> <img src="images/bakhsh/06.png" alt="مانیتور LCD LED">  <p>  مانییتور LED LCD </p> </div>
+            <div> <img src="images/bakhsh/07.png" alt="گوشی موبایل سامسونگ - Samsung">  <p> گوشی موبایل سامسونگ - Samsung</p> </div>
+            <div> <img src="images/bakhsh/08.png" alt="مینی کامپیوتر (مینی کیس)">  <p> مینی کامپیوتر (مینی کیس)</p> </div> 
+        </div>
+        <div id="slider1" class="miniSlider">  
+            <div id="gal1" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/06.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/07.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/08.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/09.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/01.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+            </div>
+        <div id="right1" class="right">	</div>	
+	    <div id="left1" class="left">  	</div>
+
+        </div>
+
+        <div class="title"> <p class="title2"> کالاهای جدید </p> <span class="showall"> نمایش همه </span> </div>
+        <div id="slider2" class="miniSlider"> 
+             <div id="gal2" class="gal">	
+    
+            <div class="items">  
+                <img src="images/slider2/02.jpg">
+                <h2> جوراب رونالدو اصل</h2>
+                <span class="price">  250,000 تومان  </span>			
+            </div>
+            <div class="items">  
+                <img src="images/slider2/03.jpg">
+                <h2> ساعت متوسط </h2>
+                <span class="price">  100,000 تومان  </span>
+                    
+            </div>		
+            <div class="items">  
+                <img src="images/slider2/04.jpg">
+                <h2> عینک سگی </h2>
+                <span class="price">  25000 ریال  </span>			
+            </div>
+            <div class="items">  
+                <img src="images/slider2/05.jpg">
+                <h2> عینک افتابی </h2>
+                <span class="price">  25000 ریال  </span>
+            </div>
+            <div class="items">  
+                <img src="images/slider2/02.jpg">
+                <h2> ساعت خوب </h2>
+                <span class="price">  250,000 تومان  </span>			
+            </div>
+            <div class="items">  
+                <img src="images/slider2/03.jpg">
+                <h2> ساعت متوسط </h2>
+                <span class="price">  100,000 تومان  </span>
+                    
+            </div>		
+            <div class="items">  
+                <img src="images/slider2/04.jpg">
+                <h2> عینک سگی </h2>
+                <span class="price">  25000 ریال  </span>			
+            </div>
+            <div class="items">  
+                <img src="images/slider2/05.jpg">
+                <h2> عینک افتابی </h2>
+                <span class="price">  25000 ریال  </span>
+            </div>
+            <div class="items">  
+                <img src="images/slider2/05.jpg">
+                <h2> عینک افتابی </h2>
+                <span class="price">  25000 ریال  </span>
+            </div>
+            <div class="items">  
+                <img src="images/slider2/05.jpg">
+                <h2> عینک افتابی </h2>
+                <span class="price">  25000 ریال  </span>
+            </div>
+        </div>
+    <div id="right2" class="right">	</div>	
+    <div id="left2" class="left">  	</div>
+ </div>
+
+        <div class="img4"> 
+            <div class="img41"> <img width="100%" src="https://static.esam.ir/Images/homepagetemplate/123/02-06-22-small-banner-desktop-sun-screen-min.jpg" alt="Home page banner"> </div>
+            <div class="img42"> <img width="100%" src="https://static.esam.ir/Images/homepagetemplate/123/02-06-22-small-banner-desktop-dryer-min.jpg" alt="Home page banner"> </div>
+            <div class="img43"> <img width="100%" src="https://static.esam.ir/Images/homepagetemplate/123/02-06-22-small-banner-desktop-Mom-min.jpg" alt="Home page banner"> </div>
+            <div class="img44"> <img width="100%" src="https://static.esam.ir/Images/homepagetemplate/123/02-06-22-small-banner-desktop-shaver-min.jpg" alt="Home page banner"> </div>
+        </div>
+
+        <div class="title"> <p class="title2"> سکه و طلا</p> <span class="showall"> نمایش همه </span> </div>
+        <div id="slider3" class="miniSlider">   
+            <div id="gal3" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+            </div>
+        <div id="right3" class="right">	</div>	
+	    <div id="left3" class="left">  	</div>
+        </div>
+
+        <div class="img2">  
+            <div class="img221"> <img  width="100%" src="https://static.esam.ir/Images/homepagetemplate/428/02-06-21-midbanner-desktop-iron-min.jpg" alt="Home page banner"> </div>
+            <div class="img222"> <img  width="100%" src="https://static.esam.ir/Images/homepagetemplate/428/02-06-21-midbanner-desktop-vacume-cleaner-min.jpg" alt="Home page banner"></div>
+        </div>
+
+        <div class="title"> <p class="title2"> فروش اولی</p> <span class="showall"> نمایش همه </span> </div>
+        <div id="slider4" class="miniSlider"> 
+            <div id="gal4" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+            </div>
+        <div id="right4" class="right">	</div>	
+	    <div id="left4" class="left">  	</div>
+        </div>
+        <div class="title"> <p class="title2">تبلیغات در ایسام</p> <span class="showall"> نمایش همه </span> </div>
+        <div id="slider5" class="miniSlider"> 
+            <div id="gal5" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+            </div>
+        <div id="right5" class="right">	</div>	
+	    <div id="left5" class="left">  	</div>
+        </div>
+
+        <div class="img1"> 
+            <img  width="100%" src="https://static.esam.ir/Images/homepagetemplate/429/02-06-19-widebanner-desktop-antique-min.jpg" alt="Home page banner">
+        </div>
+
+        <div class="title"> <p class="title2">مزایدات 10000تومانی</p> <span class="showall"> نمایش همه </span> </div>
+        <div id="slider6" class="miniSlider"> 
+            <div id="gal6" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  10,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  10,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  10,000 تومان </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  10000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  10,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  10,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  10,000 تومان </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  10,000 تومان </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  10,000 تومان </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  10,000 تومان </span>
+                </div>
+            </div>
+        <div id="right6" class="right">	</div>	
+	    <div id="left6" class="left">  	</div>
+        </div>
+        <div class="title"> <p class="title2"> اخرین بازدید</p> </div>
+        <div id="slider7" class="miniSlider"> 
+            <div id="gal7" class="gal">	
+    
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> جوراب رونالدو اصل</h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/02.jpg">
+                    <h2> ساعت خوب </h2>
+                    <span class="price">  250,000 تومان  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/03.jpg">
+                    <h2> ساعت متوسط </h2>
+                    <span class="price">  100,000 تومان  </span>
+                        
+                </div>		
+                <div class="items">  
+                    <img src="images/slider2/04.jpg">
+                    <h2> عینک سگی </h2>
+                    <span class="price">  25000 ریال  </span>			
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+                <div class="items">  
+                    <img src="images/slider2/05.jpg">
+                    <h2> عینک افتابی </h2>
+                    <span class="price">  25000 ریال  </span>
+                </div>
+            </div>
+        <div id="right7" class="right">	</div>	
+	    <div id="left7" class="left">  	</div>
+        </div>
+</div>
+
+<div id="footer">  </div>
+
+<script>
+
+function changeAll(x){
+
+// move slider
+move(x);
+
+// change tab
+changeTab(x);
+
+}
+function move(num){
+pos = -100*num;
+gal.style.left = pos + "%";	
+}
+
+function changeTab(num){
+for(i=0 ; i < lis.length ; i++){
+    lis[i].className = "";
+}
+
+lis[num].className = "sel";	
+}
+
+var pos = 0;
+
+
+const lis = document.querySelectorAll("#slider > #but > li");
+
+var s = setInterval("go_right()",4000);
+
+slider.onmouseover = function(){
+    clearInterval(s);
+}
+slider.onmouseout = function(){
+     s = setInterval("go_right()",4000);
+}
+
+
+right.onclick = go_right;
+
+
+function go_right(){
+
+    if(pos > -200){
+        pos = pos - 100;
+        gal.style.left = pos + "%";
+    }
+    else if(pos == -200){
+        pos = 0;
+        gal.style.left = pos + "%";	
+    }
+    
+    
+    let currentTabIndex = pos/-100;
+    changeTab(currentTabIndex);
+}
+
+
+left.onclick = function(){
+
+    if(pos < 0){
+        pos = pos + 100;
+        gal.style.left = pos + "%";
+
+    }
+    
+    currentTabIndex = pos/-100;
+    changeTab(currentTabIndex);
+}
+	
+e = 0;
+
+right1.onclick= function(){
+    if(e > -28){
+        e = e - 20;
+        gal1.style.left = e + "%";
+        
+    }
+    else if(e == -15){
+        gal1.style.right = "0";
+        right1.style.opacity = "0";
+}
+}
+left1.onclick= function(){
+    if(e < 0){
+	gal1.style.left = "0";
+    }
+
+}
+right2.onclick= function(){
+    gal2.style.left = -28.5714 + "%";
+
+}	
+left2.onclick= function(){
+        gal2.style.left = 0 + "px";
+}
+right3.onclick= function(){
+    gal3.style.left = -28.5714 + "%";
+
+}	
+left3.onclick= function(){
+        gal3.style.left = 0 + "px";
+}
+right4.onclick= function(){
+    gal4.style.left = -28.5714 + "%";
+
+}	
+left4.onclick= function(){
+        gal4.style.left = 0 + "px";
+}
+right5.onclick= function(){
+    gal5.style.left = -28.5714 + "%";
+
+}	
+left5.onclick= function(){
+        gal5.style.left = 0 + "px";
+}
+right6.onclick= function(){
+    gal6.style.left = -28.5714 + "%";
+
+}	
+left6.onclick= function(){
+        gal6.style.left = 0 + "px";
+}
+right7.onclick= function(){
+    gal7.style.left = -28.5714 + "%";
+
+}	
+left7.onclick= function(){
+        gal7.style.left = 0 + "px";
+}
+</script>
+
+</body>
+</html>

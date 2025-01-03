@@ -1,0 +1,68 @@
+#dm{
+    position: fixed;
+    top: 200px;
+    width: 50px;
+    display: none;
+}
+label{
+    position: fixed;
+    top: 200px;
+    left: -110px;
+    z-index: 9999999;
+    width: 140px;
+    height: 30px;
+    border-radius:0px 50px 50px 0px ;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    transition: .5s;
+    border: 3px dashed #fff;
+    cursor: pointer;
+}
+label:hover{
+    left: -7px;
+    transition: .5s;
+}
+input:checked + label{
+    background: rgb(255, 255, 255);
+    color: #000000;
+    border: 3px dashed #000000;
+}
+input:checked ~ #header{
+    background-color: rgb(75, 75, 75);
+    border-bottom: 2px solid black;
+    border-top: 0 none;
+    color: white;
+}
+input:checked ~ #header > .search{
+    background-color: #4e4e4e;
+}
+input:checked ~ #header > .search > input{
+    background-color: #4e4e4e;
+    color: #fff;
+}
+input:checked ~ #header > .khadamat{
+    border:1px solid black;
+}
+input:checked ~ #header > .khadamat > p{
+    border-left: 1px solid black;
+}
+input:checked ~ #content > .bakhsh > div{
+    background-color: rgb(81, 81, 81);
+}
+input:checked ~ #content > .miniSlider > .gal > .items{
+    background-color: rgb(81, 81, 81);
+    transition: 0s;
+}
+input:checked ~ #content > .miniSlider > .gal > .items:hover{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+input:checked ~ #content > .miniSlider > .gal > .items > .price{
+    color: rgb(190, 190, 190);
+    transition: 0s;
+}
+input:checked ~ #content{
+    background-color: rgb(61, 61, 61);
+    color: rgb(230, 230, 230);
+    transition: 0s;
+}

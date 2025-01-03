@@ -1,0 +1,53 @@
+#dasteha{
+    border: 1px solid red;
+    margin-top: 75.8px;
+    padding-top: 20pxx;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+#dasteha2{
+    border: 1px solid blue;
+    margin: 0 auto;
+    width: 1328px !important;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#dasteha2 > div{
+    width: 11.17%;
+    height: 109px;
+    padding: .5rem !important;
+    margin: 0 6px 12px 6px;
+    padding: 8px;
+    flex: 1 1;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.06);
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+}
+#dasteha2 > div > p{
+    text-align: center;
+    font-size: 12px;
+
+    font-weight: 700;
+    align-items: flex-end;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0;
+}
+#dasteha2 > div:hover > p{
+    color:rgb(0, 60, 255)
+}
+#dasteha2 > div > img{
+    height: 57%;
+}
+#dasteha2 > h2{
+    direction: rtl;
+    padding-bottom: 1rem;
+}
